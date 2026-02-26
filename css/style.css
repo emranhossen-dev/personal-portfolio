@@ -104,3 +104,119 @@ ul li a.active {
     height: 300px;
     border-radius: 20% 30%;
 }
+
+
+.site-footer {
+  background: #000000;
+  color: #e5e7eb;
+  padding-bottom: 10px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+
+.footer-bottom {
+  /* margin-top: 40px; */
+  border-top: 1px solid #334155;
+  padding-top: 15px;
+  text-align: center;
+  font-size: 14px;
+  color: #fefefe;
+}
+
+
+.bio-section {
+            max-width: 800px;
+            margin: 0px auto;
+            padding: 0px;
+            border-radius: 10px;
+            text-align: center;
+            padding-bottom: 20px;
+        }
+
+        .bio-section h1 {
+            margin-bottom: 10px;
+            font-size: 32px;
+            color: #333;
+        }
+
+        .bio-section h2 {
+            margin-bottom: 20px;
+            font-weight: normal;
+            color: #777;
+        }
+
+        .bio-section p {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #555;
+        }
+
+        .skills {
+            margin-top: 25px;
+        }
+
+        .skills span {
+            display: inline-block;
+            margin: 8px;
+            padding: 8px 15px;
+            background-color: #007BFF;
+            color: #fff;
+            border-radius: 20px;
+            font-size: 14px;
+        }
+
+
+
+        /* About Page */
+.about-page{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 50px 40px;
+}
+
+.about-section{
+    margin-bottom: 50px;
+}
+
+.about-section h2{
+    font-size: 26px;
+    margin-bottom: 15px;
+    color: #222;
+    border-left: 5px solid goldenrod;
+    padding-left: 10px;
+}
+
+.about-section p{
+    font-size: 16px;
+    line-height: 1.7;
+    color: #555;
+}
+
+.about-list{
+    margin-top: 15px;
+}
+
+.about-list li{
+    margin-bottom: 18px;
+    font-size: 16px;
+    color: #444;
+}
+
+.about-list span{
+    display: block;
+    font-size: 14px;
+    color: #777;
+}
+
+/* Resume Box */
+.resume-box{
+    text-align: center;
+    background: #f8f9fa;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.resume-btn{
+    display: inline-block;
+    margin-top: 15px;
+}

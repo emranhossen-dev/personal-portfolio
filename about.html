@@ -3,7 +3,8 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Portfolio Website</title>
+    <title>About | Emran Hossen</title>
+
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -12,7 +13,9 @@
     />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
+
   <body>
+    <!-- Header (same navbar, no change) -->
     <header>
       <nav class="navbars">
         <h1 class="logo">Emran Hossen</h1>
@@ -26,24 +29,101 @@
         <button class="btn">Contact Me</button>
       </nav>
     </header>
-    <main>
-      <section class="banner">
-        <div class="content">
-          <h1>I am Emran Hossen</h1>
-          <h2>A professional Web Design and Developer.</h2>
-          <p>
-            I am emran hossen, working as a developer and designer. I am expert at html, css, javascript, react, bootstrap, tailwind, mongodb and express js. I am very professionate about my works. 
-          </p>
-          <button class="btn">
-            <a href="./skills.html">View Projects</a>
-          </button>
-        </div>
-        <div class="img">
 
+    <!-- About Page Content -->
+    <main>
+      <section class="about-page">
+
+        <!-- Biography -->
+        <div class="about-section">
+          <h2>About Me</h2>
+          <p>
+            I am <strong>Emran Hossen</strong>, a professional full-stack web developer
+            specializing in the <strong>MERN stack</strong> (MongoDB, Express.js, React.js, Node.js).
+            I build modern, scalable, and high-performance web applications with a strong
+            focus on clean code, security, and user experience.
+          </p>
+
+          <p>
+            I enjoy transforming ideas into real-world digital solutions. From frontend
+            design to backend architecture, I work across the full development lifecycle —
+            planning, development, testing, deployment, and optimization.
+          </p>
         </div>
+
+                <!-- Experience -->
+        <div class="about-section">
+          <h2>Education Experience</h2>
+          <ul class="about-list" style="display: flex; justify-content: space-between; gap: 30px;">
+            <li>
+              <strong>Secondary School Certificate</strong><br />
+              Institute: Sutria High School - Narsingdi, Dhaka.
+              <br />
+              Group: Science<br>
+              GPA: 4.17<br>
+              Passing Year: 2019
+              <span>
+                I completed my ssc exam from this school at 2019 and achieved gpa 4.17.
+              </span>
+            </li>
+            <li>
+              <strong>Higher Secondary Certificate</strong><br />
+              Institute: Bara Chapa Union Adarsha Degree College - Narsingdi, Dhaka.
+              <br />
+              Group: Science<br>
+              GPA: 4.58<br>
+              Passing Year: 2021
+              <span>
+                I completed my hsc exam from this college at 2021 and achieved gpa 4.58.
+              </span>
+            </li>
+          </ul>
+        </div>
+
+
+        <!-- Experience -->
+        <div class="about-section">
+          <h2>Work Experience</h2>
+          <ul class="about-list">
+            <li>
+              <strong>Full-Stack Web Developer</strong><br />
+              Freelance / Personal Projects<br />
+              <span>
+                Developed responsive websites, web applications, dashboards, and REST APIs
+                using React, Node.js, Express.js, and MongoDB.
+              </span>
+            </li>
+
+            <li>
+              <strong>Frontend Developer</strong><br />
+              UI/UX Focused Projects<br />
+              <span>
+                Built modern interfaces using HTML, CSS, Bootstrap, Tailwind, and React.
+              </span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Resume -->
+        <div class="about-section resume-box">
+          <h2>Resume</h2>
+          <p>Download my professional resume to learn more about my skills and experience.</p>
+
+          <a href="./assets/Emran-Hossen-Resume.pdf" download class="btn resume-btn">
+            Download Resume (PDF)
+          </a>
+        </div>
+
       </section>
     </main>
-    <footer></footer>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="footer-bottom">
+        <p>© 2026 Emran Hossen. All rights reserved.</p>
+        <p>Designed & Developed by <strong>Emran Hossen</strong></p>
+      </div>
+    </footer>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
