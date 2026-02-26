@@ -35,15 +35,13 @@ ul li a.active {
 
 
 
-.navbar{
+.navbars{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    padding: 5px 20px;
+    padding: 5px 50px;
     background-color: #333333;
-    max-width: 1320px;
     margin: 0 auto;
-
 }
 
 .logo{
@@ -64,3 +62,45 @@ ul li a.active {
     color: white;
 }
 
+.banner{
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0px 50px;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content{
+    width: 500px;
+    text-align: justify;
+}
+
+.content h1{
+    font-size: 25px;
+}
+
+.content h2{
+    font-size: 20px;
+}
+
+
+.btn a{
+    background-color: goldenrod;
+    color: white;
+    font-weight: 600;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+.btn a:hover{
+    background-color: rgb(53, 7, 236);
+    color: white;
+}
+
+
+.img img{
+    height: 300px;
+    border-radius: 20% 30%;
+}
