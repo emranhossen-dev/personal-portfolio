@@ -220,3 +220,290 @@ ul li a.active {
     display: inline-block;
     margin-top: 15px;
 }
+
+
+
+
+/* ============================= */
+/* Projects Page */
+/* ============================= */
+
+.project-page{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 40px;
+}
+
+.project-header{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.project-header h1{
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #222;
+}
+
+.project-header p{
+    font-size: 16px;
+    color: #666;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* Grid Layout */
+.project-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+/* Card */
+.project-card{
+    background: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+    transition: 0.3s ease;
+}
+
+.project-card:hover{
+    transform: translateY(-8px);
+}
+
+/* Image */
+.project-img img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Content */
+.project-content{
+    padding: 20px;
+}
+
+.project-content h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #222;
+}
+
+.project-content p{
+    font-size: 15px;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Tech Stack */
+.project-tech{
+    margin: 15px 0;
+}
+
+.project-tech span{
+    display: inline-block;
+    margin: 5px 6px 0 0;
+    padding: 6px 12px;
+    background: #007BFF;
+    color: white;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+/* Links */
+.project-links{
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.project-links .btn{
+    padding: 8px 12px;
+    font-size: 14px;
+}
+
+/* Responsive */
+@media(max-width: 992px){
+    .project-grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media(max-width: 600px){
+    .project-grid{
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+/* ============================= */
+/* Contact Page */
+/* ============================= */
+
+.contact-page{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 40px;
+}
+
+/* Header */
+.contact-header{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.contact-header h1{
+    font-size: 36px;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+.contact-header p{
+    max-width: 700px;
+    margin: 0 auto;
+    color: #666;
+    font-size: 16px;
+}
+
+/* Layout */
+.contact-layout{
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    gap: 40px;
+    margin-bottom: 60px;
+}
+
+/* Info Box */
+.contact-info{
+    background: #f8f9fa;
+    padding: 30px;
+    border-radius: 12px;
+}
+
+.contact-info h2{
+    margin-bottom: 15px;
+    border-left: 5px solid goldenrod;
+    padding-left: 10px;
+}
+
+.contact-info p{
+    font-size: 15px;
+    color: #444;
+    margin-bottom: 8px;
+}
+
+/* Social Links */
+.social-links{
+    margin-top: 20px;
+}
+
+.social-links a{
+    display: inline-block;
+    margin-right: 12px;
+    margin-top: 8px;
+    padding: 8px 14px;
+    background: #333;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 13px;
+    transition: 0.3s;
+}
+
+.social-links a:hover{
+    background: goldenrod;
+}
+
+/* Form Box */
+.contact-form-box{
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+}
+
+.contact-form-box h2{
+    margin-bottom: 20px;
+    border-left: 5px solid goldenrod;
+    padding-left: 10px;
+}
+
+/* Form */
+.contact-form .form-group{
+    margin-bottom: 15px;
+}
+
+.contact-form label{
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.contact-form input,
+.contact-form textarea{
+    width: 100%;
+    padding: 10px 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 14px;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus{
+    border-color: goldenrod;
+}
+
+/* Map */
+.map-section{
+    margin-top: 40px;
+}
+
+.map-section h2{
+    border-left: 5px solid goldenrod;
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+
+.map-box{
+    height: 250px;
+    background: #e9ecef;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #555;
+    font-size: 15px;
+}
+
+/* Responsive */
+@media(max-width: 900px){
+    .contact-layout{
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+
+.map-box{
+    width: 100%;
+    max-width: 100%;
+    height: 300px;              /* you can change height */
+    background: #e9ecef;
+    border-radius: 10px;
+    overflow: hidden;           /* 🔥 this prevents overflow */
+    position: relative;
+}
+
+/* Make iframe fully responsive */
+.map-box iframe{
+    width: 100% !important;
+    height: 100% !important;
+    border: 0;
+    display: block;
+}
+
+
