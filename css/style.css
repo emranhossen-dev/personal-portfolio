@@ -1,0 +1,337 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover:not(.active) {
+  background-color: #111111;
+}
+
+ul li a.active {
+  background-color: #04AA6D;
+}
+
+
+
+.navbars{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 50px;
+    background-color: #333333;
+    margin: 0 auto;
+}
+
+.logo{
+    font-size: 26px;
+    font-weight: 800;
+    color: rgb(254, 254, 254);
+}
+
+.btn{
+    background-color: goldenrod;
+    color: white;
+    font-weight: 600;
+    padding: 10px 15px;
+}
+
+.btn:hover{
+    background-color: rgb(53, 7, 236);
+    color: white;
+}
+
+.banner{
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0px 50px;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content{
+    width: 500px;
+    text-align: justify;
+}
+
+.content h1{
+    font-size: 25px;
+}
+
+.content h2{
+    font-size: 20px;
+}
+
+
+.btn a{
+    background-color: goldenrod;
+    color: white;
+    font-weight: 600;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+.btn a:hover{
+    background-color: rgb(53, 7, 236);
+    color: white;
+}
+
+
+.img img{
+    height: 300px;
+    border-radius: 20% 30%;
+}
+
+
+.site-footer {
+  background: #000000;
+  color: #e5e7eb;
+  padding-bottom: 10px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+
+.footer-bottom {
+  /* margin-top: 40px; */
+  border-top: 1px solid #334155;
+  padding-top: 15px;
+  text-align: center;
+  font-size: 14px;
+  color: #fefefe;
+}
+
+
+.bio-section {
+            max-width: 800px;
+            margin: 0px auto;
+            padding: 0px;
+            border-radius: 10px;
+            text-align: center;
+            padding-bottom: 20px;
+        }
+
+        .bio-section h1 {
+            margin-bottom: 10px;
+            font-size: 32px;
+            color: #333;
+        }
+
+        .bio-section h2 {
+            margin-bottom: 20px;
+            font-weight: normal;
+            color: #777;
+        }
+
+        .bio-section p {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #555;
+        }
+
+        .skills {
+            margin-top: 25px;
+        }
+
+        .skills span {
+            display: inline-block;
+            margin: 8px;
+            padding: 8px 15px;
+            background-color: #007BFF;
+            color: #fff;
+            border-radius: 20px;
+            font-size: 14px;
+        }
+
+
+
+        /* About Page */
+.about-page{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 50px 40px;
+}
+
+.about-section{
+    margin-bottom: 50px;
+}
+
+.about-section h2{
+    font-size: 26px;
+    margin-bottom: 15px;
+    color: #222;
+    border-left: 5px solid goldenrod;
+    padding-left: 10px;
+}
+
+.about-section p{
+    font-size: 16px;
+    line-height: 1.7;
+    color: #555;
+}
+
+.about-list{
+    margin-top: 15px;
+}
+
+.about-list li{
+    margin-bottom: 18px;
+    font-size: 16px;
+    color: #444;
+}
+
+.about-list span{
+    display: block;
+    font-size: 14px;
+    color: #777;
+}
+
+/* Resume Box */
+.resume-box{
+    text-align: center;
+    background: #f8f9fa;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.resume-btn{
+    display: inline-block;
+    margin-top: 15px;
+}
+
+
+
+
+/* ============================= */
+/* Projects Page */
+/* ============================= */
+
+.project-page{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 40px;
+}
+
+.project-header{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.project-header h1{
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #222;
+}
+
+.project-header p{
+    font-size: 16px;
+    color: #666;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* Grid Layout */
+.project-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+/* Card */
+.project-card{
+    background: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+    transition: 0.3s ease;
+}
+
+.project-card:hover{
+    transform: translateY(-8px);
+}
+
+/* Image */
+.project-img img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Content */
+.project-content{
+    padding: 20px;
+}
+
+.project-content h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #222;
+}
+
+.project-content p{
+    font-size: 15px;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Tech Stack */
+.project-tech{
+    margin: 15px 0;
+}
+
+.project-tech span{
+    display: inline-block;
+    margin: 5px 6px 0 0;
+    padding: 6px 12px;
+    background: #007BFF;
+    color: white;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+/* Links */
+.project-links{
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.project-links .btn{
+    padding: 8px 12px;
+    font-size: 14px;
+}
+
+/* Responsive */
+@media(max-width: 992px){
+    .project-grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media(max-width: 600px){
+    .project-grid{
+        grid-template-columns: 1fr;
+    }
+}
